@@ -52,10 +52,30 @@ $hotels = [
         <link rel="stylesheet" href="css/style.css">
     <title> PHP Hotel </title>
 </head>
-<body>
-<main class="container text-center ">
+<body><table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Vote</th>
+            <th>Distance to center</th>
+        </tr>
+    </thead>
+    <tbody>
+        
 
+<?php
 
+foreach ($hotels as $hotel) {
+    echo "<tr>
+            <td>{$hotel["name"]}</td>
+            <td>{$hotel["description"]}</td>
+            <td>{$hotel["vote"]}</td>
+            <td>{$hotel["distance_to_center"]}</td>
+        </tr>";
+}
 
+?>
+    </tbody>
 </main>
 </html>
