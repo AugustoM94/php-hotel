@@ -18,7 +18,7 @@
 <header>
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#"><img src="https://it.hotels.com/_dms/header/logo.svg?locale=it_IT&amp;siteid=300000007&amp;2&amp;3ec60977" alt="Logo hotels" class="large-logo">
+    <a class="navbar-brand" href="index.php"><img src="https://it.hotels.com/_dms/header/logo.svg?locale=it_IT&amp;siteid=300000007&amp;2&amp;3ec60977" alt="Logo hotels" class="large-logo">
 </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -54,8 +54,8 @@
                 </select>        
           <label class="mt-1" for="parking">Parking:</label>
                 <select name="parking" id="parking" class="form-select">
-                    <option value="">All</option>
-                    <option value="1">With Parking</option>
+                        <option value="">All</option>
+                        <option value="1">With Parking</option>
                 </select>
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
